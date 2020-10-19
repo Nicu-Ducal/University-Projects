@@ -1,0 +1,136 @@
+		Testarea sortarilor pentru un array cu 1000 de numere din intervalul [0;10000000]:
+
+Bubblesort:	Sortare - OK, Timpul de sortare: 3 ms
+Countsort:	Sortare - OK, Timpul de sortare: 0 ms
+Radixsort(256):	Sortare - OK, Timpul de sortare: 0 ms
+Radixsort(256 * 256):	Sortare - OK, Timpul de sortare: 0 ms
+Mergesort:	Sortare - OK, Timpul de sortare: 0 ms
+Quicksort(Mediana din 3):	Sortare - OK, Timpul de sortare: 0 ms
+Quicksort(Random):	Sortare - OK, Timpul de sortare: 0 ms
+Sortare STL:  	Timpul de sortare: 0 ms
+
+Cea/Cele mai eficienta/eficiente sortare/sortari: Countsort Radixsort(256) Radixsort(256 * 256) Mergesort Quicksort(Mediana din 3) Quicksort(Random) STL 
+Radixsort-ul mai eficient: Ambele
+Quicksort-ul mai eficient: Ambele
+
+
+
+		Testarea sortarilor pentru un array cu 5000 de numere din intervalul [0;10000000]:
+
+Bubblesort:	Sortare - OK, Timpul de sortare: 108 ms
+Countsort:	Sortare - OK, Timpul de sortare: 0 ms
+Radixsort(256):	Sortare - OK, Timpul de sortare: 0 ms
+Radixsort(256 * 256):	Sortare - OK, Timpul de sortare: 0 ms
+Mergesort:	Sortare - OK, Timpul de sortare: 0 ms
+Quicksort(Mediana din 3):	Sortare - OK, Timpul de sortare: 0 ms
+Quicksort(Random):	Sortare - OK, Timpul de sortare: 0 ms
+Sortare STL:  	Timpul de sortare: 0 ms
+
+Cea/Cele mai eficienta/eficiente sortare/sortari: Countsort Radixsort(256) Radixsort(256 * 256) Mergesort Quicksort(Mediana din 3) Quicksort(Random) STL 
+Radixsort-ul mai eficient: Ambele
+Quicksort-ul mai eficient: Ambele
+
+
+
+		Testarea sortarilor pentru un array cu 10000 de numere din intervalul [0;5000000]:
+
+Bubblesort:	Sortare - OK, Timpul de sortare: 445 ms
+Countsort:	Sortare - OK, Timpul de sortare: 0 ms
+Radixsort(256):	Sortare - OK, Timpul de sortare: 0 ms
+Radixsort(256 * 256):	Sortare - OK, Timpul de sortare: 0 ms
+Mergesort:	Sortare - OK, Timpul de sortare: 1 ms
+Quicksort(Mediana din 3):	Sortare - OK, Timpul de sortare: 0 ms
+Quicksort(Random):	Sortare - OK, Timpul de sortare: 0 ms
+Sortare STL:  	Timpul de sortare: 0 ms
+
+Cea/Cele mai eficienta/eficiente sortare/sortari: Countsort Radixsort(256) Radixsort(256 * 256) Quicksort(Mediana din 3) Quicksort(Random) STL 
+Radixsort-ul mai eficient: Ambele
+Quicksort-ul mai eficient: Ambele
+
+
+
+		Testarea sortarilor pentru un array cu 50000 de numere din intervalul [0;500000]:
+
+Bubblesort:	Sortare - OK, Timpul de sortare: 11586 ms
+Countsort:	Sortare - OK, Timpul de sortare: 0 ms
+Radixsort(256):	Sortare - OK, Timpul de sortare: 0 ms
+Radixsort(256 * 256):	Sortare - OK, Timpul de sortare: 0 ms
+Mergesort:	Sortare - OK, Timpul de sortare: 8 ms
+Quicksort(Mediana din 3):	Sortare - OK, Timpul de sortare: 8 ms
+Quicksort(Random):	Sortare - OK, Timpul de sortare: 8 ms
+Sortare STL:  	Timpul de sortare: 8 ms
+
+Cea/Cele mai eficienta/eficiente sortare/sortari: Countsort Radixsort(256) Radixsort(256 * 256) 
+Radixsort-ul mai eficient: Ambele
+Quicksort-ul mai eficient: Ambele
+
+
+
+		Testarea sortarilor pentru un array cu 100000 de numere din intervalul [0;100000]:
+
+Bubblesort:	Bubblesort este ineficient pentru vectori cu 100000 elemente
+Countsort:	Sortare - OK, Timpul de sortare: 0 ms
+Radixsort(256):	Sortare - OK, Timpul de sortare: 0 ms
+Radixsort(256 * 256):	Sortare - OK, Timpul de sortare: 1 ms
+Mergesort:	Sortare - OK, Timpul de sortare: 16 ms
+Quicksort(Mediana din 3):	Sortare - OK, Timpul de sortare: 16 ms
+Quicksort(Random):	Sortare - OK, Timpul de sortare: 17 ms
+Sortare STL:  	Timpul de sortare: 18 ms
+
+Cea/Cele mai eficienta/eficiente sortare/sortari: Countsort Radixsort(256) 
+Radixsort-ul mai eficient: Radixsort(256)
+Quicksort-ul mai eficient: Quicksort(Mediana din 3)
+
+
+
+		Testarea sortarilor pentru un array cu 1000000 de numere din intervalul [0;100000]:
+
+Bubblesort:	Bubblesort este ineficient pentru vectori cu 1000000 elemente
+Countsort:	Sortare - OK, Timpul de sortare: 6 ms
+Radixsort(256):	Sortare - OK, Timpul de sortare: 17 ms
+Radixsort(256 * 256):	Sortare - OK, Timpul de sortare: 19 ms
+Mergesort:	Sortare - OK, Timpul de sortare: 195 ms
+Quicksort(Mediana din 3):	Sortare - OK, Timpul de sortare: 178 ms
+Quicksort(Random):	Sortare - OK, Timpul de sortare: 186 ms
+Sortare STL:  	Timpul de sortare: 203 ms
+
+Cea/Cele mai eficienta/eficiente sortare/sortari: Countsort 
+Radixsort-ul mai eficient: Radixsort(256)
+Quicksort-ul mai eficient: Quicksort(Mediana din 3)
+
+
+
+		Testarea sortarilor pentru un array cu 10000000 de numere din intervalul [0;10000]:
+
+Bubblesort:	Bubblesort este ineficient pentru vectori cu 10000000 elemente
+Countsort:	Sortare - OK, Timpul de sortare: 69 ms
+Radixsort(256):	Sortare - OK, Timpul de sortare: 181 ms
+Radixsort(256 * 256):	Sortare - OK, Timpul de sortare: 205 ms
+Mergesort:	Sortare - OK, Timpul de sortare: 2078 ms
+Quicksort(Mediana din 3):	Sortare - OK, Timpul de sortare: 1879 ms
+Quicksort(Random):	Sortare - OK, Timpul de sortare: 1968 ms
+Sortare STL:  	Timpul de sortare: 2205 ms
+
+Cea/Cele mai eficienta/eficiente sortare/sortari: Countsort 
+Radixsort-ul mai eficient: Radixsort(256)
+Quicksort-ul mai eficient: Quicksort(Mediana din 3)
+
+
+
+		Testarea sortarilor pentru un array cu 100000000 de numere din intervalul [0;10000]:
+
+Bubblesort:	Bubblesort este ineficient pentru vectori cu 100000000 elemente
+Countsort:	Sortare - OK, Timpul de sortare: 720 ms
+Radixsort(256):	Sortare - OK, Timpul de sortare: 2782 ms
+Radixsort(256 * 256):	Sortare - OK, Timpul de sortare: 2312 ms
+Mergesort:	Sortare - OK, Timpul de sortare: 23485 ms
+Quicksort(Mediana din 3):	Sortare - OK, Timpul de sortare: 20893 ms
+Quicksort(Random):	Sortare - OK, Timpul de sortare: 21412 ms
+Sortare STL:  	Timpul de sortare: 24807 ms
+
+Cea/Cele mai eficienta/eficiente sortare/sortari: Countsort 
+Radixsort-ul mai eficient: Radixsort(256 * 256)
+Quicksort-ul mai eficient: Quicksort(Mediana din 3)
+
+
+

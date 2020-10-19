@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1583826040 source:c:\users\nicu\desktop\programare orientata pe obiecte\tema 1\tema 1 - matrici\tema 1 - matrici\main.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	<vector>
+	<math.h>
+	<string>
+	<algorithm>
+

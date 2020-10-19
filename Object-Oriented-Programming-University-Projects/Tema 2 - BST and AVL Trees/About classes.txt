@@ -1,0 +1,22 @@
+Tema 10. arbori binari de cautare AVL in reprezentare inlantuita:
+Se dau urmatoarele clase:
+	++ Nod (int info, nod*st, nod *dr)
+	++ Nod_AVL:Nod {int echilibru};
+	++ Arbore(int nr_noduri) – clasa abstracta
+	++ ABC (Nod *rad):Arbore
+	++ Arbore_AVL(Nod_AVL *rad) : Arbore
+	++ Clasa derivata trebuie sa contina o functie prin care să se afiseze factorii de echilibru pentru
+	fiecare nod.
+
+
+Pentru BST:
+	++ membru privat de tip „Nod*” reprezentând rădăcina arborelui;
+	++ getRoot, getNodeNumber
+	++ metode publice pentru inserarea unui element, care sa supraincarce operatorul +, care va fi aplicat intre un numar reprezentand elementul nou introdus si un arbore; 
+	++ supraincarcarea operatorului >>, prin inserari succesive; 
+	++ supraincarcarea operatorului <<, care sa afiseze arborele în toate cele 3 metode (preordine, inordine, postordine; 
+	++ metoda publica pentru stergerea unui element; 
+	++ metoda publica pentru determinarea inaltimii arborelui; 
+	++ metoda publica pentru afisarea listei frunzelor.
+	++ metoda publica pentru verificarea existentei unui nod in arbore sau nu (find)
+	++ metode aditionale (print 2d, bfs etc.)

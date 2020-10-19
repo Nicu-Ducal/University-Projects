@@ -1,0 +1,43 @@
+4
+$ a b c
+S
+4
+S A B C
+4
+S
+ABAC
+A
+aA $
+B
+bB $
+C
+c
+
+# Input cand avem T - > lambda / inca ceva
+3
+$ a b
+B
+4
+T A B C
+3
+T
+$ ab
+A
+T
+B
+CT
+
+
+# Input cand avem doar T -> lambda
+1
+$
+B
+4
+T A B C
+3
+T
+$
+A
+T
+B
+CT
